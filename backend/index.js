@@ -10,7 +10,7 @@ app.get("/", (req, res) => {
 });
 
 // Express Server
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT;
 app.listen(PORT, () => {
 	console.log(`Server is running on port: http://localhost:${PORT}`);
 });
